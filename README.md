@@ -101,13 +101,13 @@ Es una variante del anterior en la cual se permiten operaciones intermedias sobr
 El registro que genera la dirección se actualiza con la propia dirección. De esta forma podemos recorrer un array con un sólo registro sin necesidad de hacer el incremento del puntero en una instrucción aparte.
 
 **Tipos de datos**
-![](
+![](https://github.com/ZazuetaDiana/Resumen.md/blob/main/imagen5.png)
 
 **Punteros.**
 
  Un puntero siempre ocupa 32 bits y contiene una dirección de memoria. En ensamblador no tienen tanta utilidad como en C, ya que disponemos de registros de sobra y es más costoso acceder a las variables a través de los punteros que directamente.  
  
-**Vectores. 
+**Vectores.**
 
 Todos los elementos de un vector se almacenan en un único bloque de memoria a partir de una dirección determinada.
 **Matrices bidimensionales. **
@@ -122,5 +122,7 @@ Pueden producir saltos incondicionales (b y bx) o saltos condicionales. Cuando s
 
  Normalmente los compiladores en C real crean código compilado (archivos .o) en un único paso. En el caso de gcc este proceso se hace en dos fases: en una primera se pasa de C a ensamblador, y en una segunda de ensamblador a código compilado (código máquina). Lo interesante es que podemos interrumpir justo después de la compilación y ver con un editor el aspecto que tiene el código ensamblador generado a partir del código fuente en C.
 
+![](https://images.cooltext.com/5474822.png)
+<a href="http://cooltext.com" target="_top"><img src="https://cooltext.com/images/ct_pixel.gif" width="80" height="15" alt="Cool Text: Logo and Graphics Generator" border="0" /></a>
 
 

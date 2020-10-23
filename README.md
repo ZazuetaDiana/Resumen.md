@@ -49,6 +49,7 @@ Un conjunto de instrucciones y/o datos forman un módulo fuente. Este módulo es
 -----------------------------------
 
 ***Entorno típico de programación***
+
 ![](https://github.com/ZazuetaDiana/Resumen.md/blob/main/imagen2.png)
 
 **2 Tipos de errores durante la creación de un programa:**
@@ -56,6 +57,16 @@ Un conjunto de instrucciones y/o datos forman un módulo fuente. Este módulo es
 -	Sintácticos o detectables: en tiempo de traducción.
 -	Semánticos o detectables: en tiempo de ejecución. 
 
+**Modos de direccionamiento del ARM**
+En la arquitectura ARM los accesos a memoria se hacen mediante instrucciones específicas ldr y str .El resto de instrucciones toman operandos desde registros o valores inmediatos, sin excepciones
+
+**La arquitectura nos fuerza a que trabajemos de una forma determinado:**
+
+-	1. Cargamos los registros desde memoria.
+-	2. Procesamos el valor de estos registros con el amplio abanico de instrucciones del ARM.
+-	3. Volcar los resultados desde registros a memoria.
+
+Existen otras arquitecturas como la Intel x86, donde las instrucciones de procesado nos permiten leer o escribir directamente de memoria.
 
 
 

@@ -34,12 +34,15 @@ Un conjunto de instrucciones y/o datos forman un módulo fuente. Este módulo es
 
 - Posibilidad de acceso directo a nivel de registro.
 
-***Desventaja***
+***Desventajas***
 
 - Desarrollar programas en este es un proceso laborioso.
 
 -  Corrección y depuración de éstos se hace difícil.
 
+** Ubicación de datos en memoria**
+
+! [] /imagen1.png
 
 
 

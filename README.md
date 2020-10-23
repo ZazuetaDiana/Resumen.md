@@ -12,18 +12,19 @@ Existen 16 registros principales de arquitectura ARM ,13 registros generales que
 
 Registro CPSR. Almacena las banderas condicionales y los bits de control.
 
-**#Existen 4 banderas:**
+**Existen 4 banderas:**
 
 - N. Se activa cuando el resultado es negativo.
 - Z. Se activa cuando el resultado es cero o una comparación es cierta. 
 - C. Indica acarreo en las operaciones aritméticas. 
 - V. Desbordamiento aritmético.
 
-#Esquema de almacenamiento
-La regla que sigue es “el byte menos significativo ocupa la posición más baja”.
-
-##El lenguaje ensamblador
+**Esquema de almacenamiento**
+La regla que sigue es ***“el byte menos significativo ocupa la posición más baja”.***
+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+**El lenguaje ensamblador**
 Es de bajo nivel, permite un control directo de la CPU y todos los elementos asociados. Cada línea de un programa ensamblador consta de una instrucción del procesador y la posición que ocupan los datos de esa instrucción.
- 	Un conjunto de instrucciones y/o datos forman un módulo fuente. Este módulo es la entrada del compilador, que chequea la sintaxis y lo traduce a código máquina formando un módulo objeto. Finalmente, un enlazador (montador ó linker) traduce todas las referencias relativas a direcciones absolutas y termina generando el ejecutable.
+Un conjunto de instrucciones y/o datos forman un módulo fuente. Este módulo es la entrada del compilador, que chequea la sintaxis y lo traduce a código máquina formando un módulo objeto. Finalmente, un enlazador (montador ó linker) traduce todas las referencias relativas a direcciones absolutas y termina generando el ejecutable.
+
 
 

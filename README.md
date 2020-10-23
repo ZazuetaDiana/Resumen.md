@@ -2,7 +2,8 @@
 ![](https://images.cooltext.com/5474769.png)
 <a href="http://cooltext.com" target="_top"><img src="https://cooltext.com/images/ct_pixel.gif" width="80" height="15" alt="Cool Text: Logo and Graphics Generator" border="0" /></a>
 
-***Introducción al ensamblador***
+***Introducción al ensamblador
+-------------------------------------------
 
 Existen 16 registros principales de arquitectura ARM ,13 registros generales que su función es el almacenamiento temporal de datos, que van R0 hasta R12. Y los últimos 3 registros especiales, que van de R13, R14 y R15, son de propósito especial, tienen nombres alternativos.
 
@@ -21,8 +22,9 @@ Registro CPSR. Almacena las banderas condicionales y los bits de control.
 
 **Esquema de almacenamiento**
 La regla que sigue es ***“el byte menos significativo ocupa la posición más baja”.***
--------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
 **El lenguaje ensamblador**
+
 Es de bajo nivel, permite un control directo de la CPU y todos los elementos asociados. Cada línea de un programa ensamblador consta de una instrucción del procesador y la posición que ocupan los datos de esa instrucción.
 Un conjunto de instrucciones y/o datos forman un módulo fuente. Este módulo es la entrada del compilador, que chequea la sintaxis y lo traduce a código máquina formando un módulo objeto. Finalmente, un enlazador (montador ó linker) traduce todas las referencias relativas a direcciones absolutas y termina generando el ejecutable.
 

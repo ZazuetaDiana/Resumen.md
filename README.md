@@ -12,7 +12,8 @@ Existen 16 registros principales de arquitectura ARM ,13 registros generales que
 
 Registro CPSR. Almacena las banderas condicionales y los bits de control.
 
-#Existen 4 banderas:
+**#Existen 4 banderas:**
+
 - N. Se activa cuando el resultado es negativo.
 - Z. Se activa cuando el resultado es cero o una comparación es cierta. 
 - C. Indica acarreo en las operaciones aritméticas. 

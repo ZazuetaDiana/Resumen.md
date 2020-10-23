@@ -57,7 +57,8 @@ Un conjunto de instrucciones y/o datos forman un módulo fuente. Este módulo es
 -	Sintácticos o detectables: en tiempo de traducción.
 -	Semánticos o detectables: en tiempo de ejecución. 
 
-**Modos de direccionamiento del ARM**
+**Modos de direccionamiento del ARM
+---------
 En la arquitectura ARM los accesos a memoria se hacen mediante instrucciones específicas ldr y str .El resto de instrucciones toman operandos desde registros o valores inmediatos, sin excepciones
 
 **La arquitectura nos fuerza a que trabajemos de una forma determinado:**

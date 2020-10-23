@@ -73,13 +73,15 @@ Existen otras arquitecturas como la Intel x86, donde las instrucciones de proces
 
  El operando fuente es una constante, formando parte de la instrucción.
  
- ![](
+ ![](https://github.com/ZazuetaDiana/Resumen.md/blob/main/imagen3.png)
+ 
  
 **Direccionamiento inmediato con desplazamiento o rotación. **
 
 Es una variante del anterior en la cual se permiten operaciones intermedias sobre los registros.
 
-![](
+![](https://github.com/ZazuetaDiana/Resumen.md/blob/main/imagen4.png)
+
 
 
 

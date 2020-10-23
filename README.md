@@ -36,9 +36,11 @@ Un conjunto de instrucciones y/o datos forman un módulo fuente. Este módulo es
 
 ***Desventaja***
 
--Desarrollar programas en este es un proceso laborioso.
+- Desarrollar programas en este es un proceso laborioso.
 
--Corrección y depuración de éstos se hace difícil.
+-  Corrección y depuración de éstos se hace difícil.
+
+
 
 
 

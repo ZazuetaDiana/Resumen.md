@@ -101,6 +101,7 @@ Es una variante del anterior en la cual se permiten operaciones intermedias sobr
 El registro que genera la dirección se actualiza con la propia dirección. De esta forma podemos recorrer un array con un sólo registro sin necesidad de hacer el incremento del puntero en una instrucción aparte.
 
 **Tipos de datos**
+
 ![](https://github.com/ZazuetaDiana/Resumen.md/blob/main/imagen5.png)
 
 **Punteros.**

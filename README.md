@@ -2,7 +2,18 @@
 ![](https://images.cooltext.com/5474769.png)
 <a href="http://cooltext.com" target="_top"><img src="https://cooltext.com/images/ct_pixel.gif" width="80" height="15" alt="Cool Text: Logo and Graphics Generator" border="0" /></a>
 
-***Introducción al ensamblador
+***Introducción al ensamblador***
 #Resumen
 
 Existen 15 registros de arquitectura ARM ,13 registros generales que su función es el almacenamiento temporal de datos, que van R0 hasta R12. Y los últimos 3 registros especiales, que van de R13, R14 y R15, son de propósito especial, tienen nombres alternativos.
+
+- SP/R13. Stack Pointer ó Puntero de Pila. Sirve como puntero para almacenar variables locales y registros en llamadas a funciones.
+- LR/R14. Link Register ó Registro de Enlace. Almacena la dirección de retorno cuando una instrucción BL ó BLX ejecuta una llamada a una rutina.
+- PC/R15. Program Counter ó Contador de Programa. Es un registro que indica la posición donde está el procesador en su secuencia de instrucciones. Se incrementa de 4 en 4 cada vez que se ejecuta una instrucción, salvo que ésta provoque un salto.
+
+#Existen 4 banderas:
+- N. Se activa cuando el resultado es negativo.
+- Z. Se activa cuando el resultado es cero o una comparación es cierta. 
+- C. Indica acarreo en las operaciones aritméticas. 
+- V. Desbordamiento aritmético.
+

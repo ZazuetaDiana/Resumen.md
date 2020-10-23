@@ -41,7 +41,8 @@ Un conjunto de instrucciones y/o datos forman un módulo fuente. Este módulo es
 -  Corrección y depuración de éstos se hace difícil.
 
 ***Ubicación en memoria**
+![](https://drive.google.com/file/d/14O9EVA6UqaNwOVLM64N3v4CXU18yj-oi/view?usp=sharing)
 
-![enter image description here](C:%5CUsers%5Czazue%5COneDrive%5CIm%C3%A1genes)
+
 
 -----------------------------------

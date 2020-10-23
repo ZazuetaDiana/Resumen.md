@@ -57,7 +57,7 @@ Un conjunto de instrucciones y/o datos forman un módulo fuente. Este módulo es
 -	Sintácticos o detectables: en tiempo de traducción.
 -	Semánticos o detectables: en tiempo de ejecución. 
 
-**Modos de direccionamiento del ARM
+Modos de direccionamiento del ARM
 ---------
 En la arquitectura ARM los accesos a memoria se hacen mediante instrucciones específicas ldr y str .El resto de instrucciones toman operandos desde registros o valores inmediatos, sin excepciones
 
@@ -68,6 +68,18 @@ En la arquitectura ARM los accesos a memoria se hacen mediante instrucciones esp
 -	3. Volcar los resultados desde registros a memoria.
 
 Existen otras arquitecturas como la Intel x86, donde las instrucciones de procesado nos permiten leer o escribir directamente de memoria.
+
+**Direccionamiento inmediato.**
+
+ El operando fuente es una constante, formando parte de la instrucción.
+ 
+ ![](
+ 
+**Direccionamiento inmediato con desplazamiento o rotación. **
+
+Es una variante del anterior en la cual se permiten operaciones intermedias sobre los registros.
+
+![](
 
 
 

@@ -23,6 +23,11 @@ Registro CPSR. Almacena las banderas condicionales y los bits de control.
 **Esquema de almacenamiento**
 La regla que sigue es ***“el byte menos significativo ocupa la posición más baja”.***
 
+
+***Ubicación en memoria***
+
+![](https://github.com/ZazuetaDiana/Resumen.md/blob/main/imagen1png.png)
+
 **El lenguaje ensamblador**
 
 Es de bajo nivel, permite un control directo de la CPU y todos los elementos asociados. Cada línea de un programa ensamblador consta de una instrucción del procesador y la posición que ocupan los datos de esa instrucción.
@@ -40,8 +45,17 @@ Un conjunto de instrucciones y/o datos forman un módulo fuente. Este módulo es
 
 -  Corrección y depuración de éstos se hace difícil.
 
-***Ubicación en memoria***
-
-![](https://github.com/ZazuetaDiana/Resumen.md/blob/main/imagen1png.png)
 
 -----------------------------------
+
+***Entorno típico de programación***
+
+
+*** 2 tipos de errores durante la creación de un programa: ***
+
+-	Sintácticos o detectables: en tiempo de traducción.
+-	Semánticos o detectables: en tiempo de ejecución. 
+
+
+
+

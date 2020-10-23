@@ -42,9 +42,7 @@ Un conjunto de instrucciones y/o datos forman un módulo fuente. Este módulo es
 
 ** Ubicación de datos en memoria**
 
-! [] /imagen1.png
+! [] (imagen1.png)
 
 
-
-
-
+-----------------------------------

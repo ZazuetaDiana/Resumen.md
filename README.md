@@ -122,9 +122,11 @@ Pueden producir saltos incondicionales (b y bx) o saltos condicionales. Cuando s
 **Compilación a ensamblador**
 
  Normalmente los compiladores en C real crean código compilado (archivos .o) en un único paso. En el caso de gcc este proceso se hace en dos fases: en una primera se pasa de C a ensamblador, y en una segunda de ensamblador a código compilado (código máquina). Lo interesante es que podemos interrumpir justo después de la compilación y ver con un editor el aspecto que tiene el código ensamblador generado a partir del código fuente en C.
+ 
+ ![](https://github.com/ZazuetaDiana/Resumen.md/blob/main/Ejercicio.png)
+
 
 ![](https://images.cooltext.com/5474822.png)
 <a href="http://cooltext.com" target="_top"><img src="https://cooltext.com/images/ct_pixel.gif" width="80" height="15" alt="Cool Text: Logo and Graphics Generator" border="0" /></a>
 
-![](https://github.com/ZazuetaDiana/Resumen.md/blob/main/Ejercicio.png)
 

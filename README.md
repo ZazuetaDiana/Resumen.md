@@ -49,9 +49,9 @@ Un conjunto de instrucciones y/o datos forman un módulo fuente. Este módulo es
 -----------------------------------
 
 ***Entorno típico de programación***
+![](https://github.com/ZazuetaDiana/Resumen.md/blob/main/imagen2.png)
 
-
-*** 2 tipos de errores durante la creación de un programa: ***
+**2 Tipos de errores durante la creación de un programa:**
 
 -	Sintácticos o detectables: en tiempo de traducción.
 -	Semánticos o detectables: en tiempo de ejecución. 

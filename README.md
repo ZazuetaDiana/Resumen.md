@@ -28,12 +28,16 @@ La regla que sigue es ***“el byte menos significativo ocupa la posición más 
 Es de bajo nivel, permite un control directo de la CPU y todos los elementos asociados. Cada línea de un programa ensamblador consta de una instrucción del procesador y la posición que ocupan los datos de esa instrucción.
 Un conjunto de instrucciones y/o datos forman un módulo fuente. Este módulo es la entrada del compilador, que chequea la sintaxis y lo traduce a código máquina formando un módulo objeto. Finalmente, un enlazador (montador ó linker) traduce todas las referencias relativas a direcciones absolutas y termina generando el ejecutable.
 
-***ventajas ***
--flexibilidad 
--posibilidad de acceso directo a nivel de registro.
+***Ventajas***
+
+- Flexibilidad.  
+
+- Posibilidad de acceso directo a nivel de registro.
 
 ***Desventaja***
+
 -Desarrollar programas en este es un proceso laborioso.
+
 -Corrección y depuración de éstos se hace difícil.
 
 

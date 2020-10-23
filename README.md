@@ -4,6 +4,10 @@
 
 ***Introducción al ensamblador***
 -------------------------------
+**Características generales de la arquitectura ARM**
+
+ARM es una arquitectura RISC de 32 bits, salvo la versión del core ARMv8- A que es mixta 32/64 bits. Se trata de una arquitectura licenciable, quiere decir que la empresa desarrolladora ARM Holdings diseña la arquitectura, pero son otras compañías las que fabrican y venden los chips, llevándose ARM Holdings un pequeño porcentaje por la licencia.
+
 
 Existen 16 registros principales de arquitectura ARM ,13 registros generales que su función es el almacenamiento temporal de datos, que van R0 hasta R12. Y los últimos 3 registros especiales, que van de R13, R14 y R15, son de propósito especial, tienen nombres alternativos.
 
@@ -57,9 +61,15 @@ Un conjunto de instrucciones y/o datos forman un módulo fuente. Este módulo es
 -	Sintácticos o detectables: en tiempo de traducción.
 -	Semánticos o detectables: en tiempo de ejecución. 
 
+**La estructura más general de un módulo fuente es:**
+
+ - Sección de datos: Viene identificada por la directiva .data.
+- Sección de código: Se indica con la directiva .text, y sólo puede contener código o datos no modificables. 
+
+
 Modos de direccionamiento del ARM
 ---------
-En la arquitectura ARM los accesos a memoria se hacen mediante instrucciones específicas ldr y str .El resto de instrucciones toman operandos desde registros o valores inmediatos, sin excepciones
+En la arquitectura ARM los accesos a memoria se hacen mediante instrucciones específicas ldr y str .El resto de instrucciones toman operandos desde registros o valores inmediatos, sin .
 
 **La arquitectura nos fuerza a que trabajemos de una forma determinado:**
 
@@ -76,12 +86,41 @@ Existen otras arquitecturas como la Intel x86, donde las instrucciones de proces
  ![](https://github.com/ZazuetaDiana/Resumen.md/blob/main/imagen3.png)
  
  
-**Direccionamiento inmediato con desplazamiento o rotación. **
+**Direccionamiento inmediato con desplazamiento o rotación.**
 
 Es una variante del anterior en la cual se permiten operaciones intermedias sobre los registros.
 
 ![](https://github.com/ZazuetaDiana/Resumen.md/blob/main/imagen4.png)
 
+**Direccionamiento a memoria, sin actualizar registro puntero.**
+
+ Es la forma más sencilla y admite 4 variantes. Después del acceso a memoria ningún registro implicado en el cálculo de la dirección se modifica
+ 
+**Direccionamiento a memoria, actualizando registro puntero.**
+
+El registro que genera la dirección se actualiza con la propia dirección. De esta forma podemos recorrer un array con un sólo registro sin necesidad de hacer el incremento del puntero en una instrucción aparte.
+
+**Tipos de datos**
+![](
+
+**Punteros.**
+
+ Un puntero siempre ocupa 32 bits y contiene una dirección de memoria. En ensamblador no tienen tanta utilidad como en C, ya que disponemos de registros de sobra y es más costoso acceder a las variables a través de los punteros que directamente.  
+ 
+**Vectores. 
+
+Todos los elementos de un vector se almacenan en un único bloque de memoria a partir de una dirección determinada.
+**Matrices bidimensionales. **
+
+Una matriz bidimensional de N×M elementos se almacena en un único bloque de memoria. Interpretaremos una matriz de N×M como una matriz con N filas de M elementos cada una.
+
+**Instrucciones de salto**
+
+Pueden producir saltos incondicionales (b y bx) o saltos condicionales. Cuando saltamos a una etiqueta empleamos b, mientras que si queremos saltar a un registro lo hacemos con bx. La variante de registro bx la solemos usar como instrucción de retorno de subrutina, raramente tiene otros usos
+
+**Compilación a ensamblador**
+
+ Normalmente los compiladores en C real crean código compilado (archivos .o) en un único paso. En el caso de gcc este proceso se hace en dos fases: en una primera se pasa de C a ensamblador, y en una segunda de ensamblador a código compilado (código máquina). Lo interesante es que podemos interrumpir justo después de la compilación y ver con un editor el aspecto que tiene el código ensamblador generado a partir del código fuente en C.
 
 
 
